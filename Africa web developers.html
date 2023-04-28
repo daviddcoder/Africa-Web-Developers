@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='UTF-8'>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"
+    <title> Africa Web Developers Group</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    
+</head>
+
+<body>
+    <section class="header">
+
+    <nav>
+        <a href="index.html"><img src=""</a>
+        <div class="nav-links">
+            <i class="fa fa-times" onclick="hideMenu"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                 <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSES</a></li>
+                <li><a href="">BLOG</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>WEBSITE DEVELOPERS</h1>
+        <p>African Community<br> for creating <br>beautiful websites</p>
+        <a href="" class="hero-btn"> Join now</a>
+
+    </div>
+</section>
+<!------Javascript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+    
+    
+</body>
+</html>
